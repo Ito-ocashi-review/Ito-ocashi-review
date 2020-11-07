@@ -1,6 +1,5 @@
 import {Integer} from "@tsed/common"
 import {Model,ObjectID} from "@tsed/mongoose";
-import { In } from '@tsed/schema';
 
 @Model()
 export class SweetAttachment {
