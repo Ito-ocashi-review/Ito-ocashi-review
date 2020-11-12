@@ -8,7 +8,7 @@ type Props = {
 const SweetsDropDown: React.FC<Props> = React.memo(({ sweets }) => {
   const sweetsItems: JSX.Element[] = sweets.map((item: string) => {
     return (
-      <MenuItem id={item}>
+      <MenuItem id={item} key={item}>
         {item}
       </MenuItem>
     );
